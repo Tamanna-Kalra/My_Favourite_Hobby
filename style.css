@@ -1,0 +1,91 @@
+body {
+    text-align: center;
+    padding-top: 800px;
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#ffa3f6 0%, purple 100%);
+    color: #f6ff00;
+    height: 800px;
+    opacity: 0.85;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+.parallax-inner {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.line {
+    background-color: black;
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.bio {
+    text-align: center;
+    padding: 50px;
+}
+
+h1,
+#name {
+    font-size: 40px;
+    font-family: "Cinzel Decorative;
+;
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+h2 {
+    font-size: 35px;
+    font-family: "Dancing Script";
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.menu {
+    position: fixed;
+    color: yellow;
+    font-family: "Dancing Script";
+    cursor: pointer;
+    list-style: none;
+    top: 10px;
+    right: 450px;
+    z-index: 10;
+    font-size: 10px;
+}
+
+.links {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 35px;
+    float: left;
+    text-decoration: underline;
+    color: blueviolet;
+}
